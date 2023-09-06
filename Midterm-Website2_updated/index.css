@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Michroma&family=Oswald:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Michroma&family=Oswald:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Roboto:ital,wght@1,100&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  height: 100%;
+}
+.header_list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  position: relative;
+  left: 50px;
+}
+
+.image_first {
+  position: relative;
+  height: 680px;
+  width: 100%;
+}
+.item_header {
+  position: relative;
+  margin: 36px;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 40px;
+  margin-left: 60px;
+  left: 40px;
+  text-decoration: none;
+  color: black;
+}
+
+.logo {
+  position: relative;
+  top: -13px;
+  margin-left: 90px;
+  font-family: "Michroma", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+}
+.logo_group {
+  border: black;
+}
+.logo_1 {
+  display: block;
+  position: relative;
+  font-size: 14px;
+  top: -50px;
+  margin-left: 130px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.logo_footer {
+  position: relative;
+  bottom: px;
+}
+
+.menu {
+  position: relative;
+  left: 230px;
+  width: 20px;
+  height: 20px;
+  top: 2px;
+  cursor: pointer;
+}
+nav {
+  width: 100%;
+  background-color: yellow;
+  height: 100px;
+  padding: 0;
+  margin: 0;
+  border-bottom: solid;
+  border-color: rgb(54, 8, 171);
+  border-width: 5px;
+  display: flex;
+  position: relative;
+}
+
+.navbar_container {
+  flex-direction: column;
+}
+.shoppingcart {
+  position: relative;
+  left: 200px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: yellow;
+  color: black;
+  padding: 20px 0;
+  border-top: solid;
+  border-color: rgb(54, 8, 171);
+  border-width: 5px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 px;
+}
+
+.footer-logo {
+  max-width: 100px;
+  height: auto;
+  position: relative;
+  font-family: "Michroma", sans-serif;
+}
+
+.footer-links ul {
+  list-style: none;
+  display: flex;
+}
+
+.footer-links li {
+  margin-right: 20px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: black;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+}
+
+.footer-contact p {
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+}
+
+.second_header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.washing_machine {
+  height: 350px;
+  width: 1250px;
+  margin-bottom: 30px;
+}
+.mug {
+  height: 350px;
+  width: 1250px;
+  margin-bottom: 30px;
+}
+
+.purpose {
+  font-weight: lighter;
+}
